@@ -17,9 +17,11 @@ console.log("ciao");
 
 // programma che stampa tutti i numeri da 1 a 100
 // ciclo
-for (let i = 1; i < 100; i++){
+for (let i = 1; i < 101; i++){
     
-    if (i % 3 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("ciao bella questo è un multiplo sia di 3 che di 5")
+    } else if (i % 3 === 0) {
         console.log("fizz");
     } else if(i % 5 === 0) {
         console.log("buzz")
