@@ -10,28 +10,30 @@
 // Consigli del giorno:
 // scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"s
- 
+
 // debug
 
 console.log("ciao");
 
 // programma che stampa tutti i numeri da 1 a 100
 // ciclo
-for (let i = 1; i < 101; i++){
-    
+for (let i = 1; i < 101; i++) {
+    // if per i multipli sia di 3 che di 5 (15,30,45) (da usare and credo) deve stampare "fizzbuzz"
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("ciao bella questo è un multiplo sia di 3 che di 5")
-    } else if (i % 3 === 0) {
+    }
+    // al posto dei multipli di 3 (3,6,9,12...) deve stampare "fizz" al posto dei numeri
+    else if (i % 3 === 0) {
         console.log("fizz");
-    } else if(i % 5 === 0) {
+    } // al posto dei multipli di 5 (5,10,15,20) deve stampare "buzz" al posto dei numeri
+    else if (i % 5 === 0) {
         console.log("buzz")
-    } else {
+    } //per stampare gli altri numeri 
+    else {
         console.log(i);
     }
-    
+
 }
-// al posto dei multipli di 3 (3,6,9,12...) deve stampare "fizz" al posto dei numeri
 
-// al posto dei multipli di 5 (5,10,15,20) deve stampare "buzz" al posto dei numeri
 
-// if per i multipli sia di 3 che di 5 (15,30,45) (da usare and credo) deve stampare "fizzbuzz"
+
